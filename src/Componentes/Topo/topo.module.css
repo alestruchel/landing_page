@@ -1,0 +1,64 @@
+.container_topo{
+    background-color: #EAEAEA;
+    max-width: 100%;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 20px;                 
+    padding: 10px;
+    flex-wrap: wrap;   
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #3ECF8E;
+    background-color: #3ECF8E;
+    border-radius: 100px; 
+    padding: 20px;
+}
+
+/* MAX WIDTH: 768PX */
+
+@media(max-width: 768px){
+    .link{
+        font-size: 10px
+    }
+}
+
+/* MAX 625PX */
+
+@media(max-width: 625px){
+    .link{
+        font-size: 10px;
+    }
+}
+
+
+/* MAX 490PX */
+
+@media(max-width: 490px){
+    .topo {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .logo {
+        max-width: 100%; 
+    }
+
+    .link {
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+}

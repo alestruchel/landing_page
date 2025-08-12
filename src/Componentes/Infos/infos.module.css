@@ -1,0 +1,86 @@
+.invest{
+    background-image: url("./campo.png");
+    background-size: cover;
+    background-position: 40%;
+    max-width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.invest h1{
+    color: #FAF9F6;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    font-size: 36px;
+}
+
+.invest a{
+    padding: 0.9rem;
+    background-color: #0a8a3b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.vantagem{
+    background-color: #EAEAEA;
+    text-align: center;
+    padding: 30px;
+}
+
+.vantagem h1{
+    color: #4d5750;
+    padding: 20px;
+}
+
+.vantagem span{
+    border-bottom: 3px solid #0a8a3b;
+}
+
+.cards{
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.card h3{
+    font-size: 20px;
+    padding-top: 20px;
+    border-bottom: 3px solid #0a8a3b;
+}
+
+.card p{
+    padding: 25px 0;
+    color: #4d5750;
+}
+
+/* MAX WIDTH 640PX */
+
+@media(max-width: 640px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* MAX 410PX */
+
+.invest h1{
+    font-size: 24px;
+}
+
+.invest a {
+    font-size: 16px;
+}
+

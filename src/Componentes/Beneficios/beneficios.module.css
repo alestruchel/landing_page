@@ -1,0 +1,81 @@
+.container_beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 30px;
+    background-color: #EAEAEA;
+    width: 100%;
+    height: 40%;
+}
+
+.container_beneficios h1{
+    color: #4d5750;
+    font-size: 38px;
+    padding-top: 20px;
+}
+
+.container_beneficios span{
+    border-bottom: 3px solid #0a8a3b;
+}
+
+.cards{
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.card h3{
+    font-size: 24px;
+    padding-top: 20px;
+    border-bottom: 3px solid #0a8a3b;
+}
+
+.card p{
+    padding: 25px 0;
+    color: #4d5750;
+}
+
+/* MAX 1024PX */
+
+@media(max-width: 1024px){
+    .container_beneficios{
+        height: 40vh;
+    }
+}
+
+/* MAX WIDTH 768PX */
+
+@media(max-width: 769px){
+
+.container_beneficios{
+    height: auto;
+}
+}
+
+/* WIDTH 640PX */
+
+@media(max-width: 640px){
+.container_beneficios{
+    height: auto;
+}
+.cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* WIDTH 426 */
+
+@media(max-width: 531px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_beneficios{
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+}
